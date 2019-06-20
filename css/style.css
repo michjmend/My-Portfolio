@@ -18,11 +18,16 @@ body {
 #hello {
   font-family: 'Satisfy', cursive;
   font-size: 20px;
+  color: #ff4f57;
 }
 
 #name {
   font-family:'Rubik', sans-serif;
   font-size: 40px;
+}
+
+.nav-link {
+  color: black;
 }
 
 #about {
@@ -58,6 +63,15 @@ body {
 
 .btn {
   background-color: #ff4f58a1;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff4f57;
 }
 
 h2,
