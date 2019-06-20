@@ -51,9 +51,9 @@ body {
   padding-top: 20px;
 }
 
-.aboutparagraph {
+#aboutparagraph {
   color: aliceblue;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 #mypic {
