@@ -130,6 +130,10 @@ i {
   margin-bottom: 2px;
 }
 
+.contactLink {
+  margin: 15px;
+}
+
 footer {
   margin-top: 10px;
   background: rgba(27, 29, 28, 0.39);
