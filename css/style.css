@@ -20,17 +20,23 @@
 }
 
 #name {
-  font-family:'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
 }
 
 .nav-link {
   color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 
 #about {
   margin-bottom: 5px;
   margin-top: 80px;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
 }
 
 #contactTitle {
@@ -52,7 +58,7 @@
 
 #aboutparagraph {
   /* color: aliceblue; */
-  font-family: 'Saira Semi Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .AP1 {
@@ -72,9 +78,11 @@
 .card, .portfolioButton {
   box-shadow: 0 6px 20px 0 rgb(0, 0, 0);
 }
-/* .btn {
-  background-color: #ff4f58a1;
-} */
+
+.portfolioButton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
 
 a {
   color: black;
@@ -114,7 +122,16 @@ i {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+}
+
+.description {
+  background: rgba(27, 29, 28, 0.705);
+  width: auto;
+  height: 150px;;
+  overflow: scroll;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 5px;
 }
 
 .work:hover .pimages {
@@ -126,12 +143,16 @@ i {
 }
 
 .hoverImage {
-  background-color: rgba(100, 148, 237, 0.575);
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgb(0, 0, 0);
   margin-bottom: 2px;
+  height: 20px;
+  width: auto;
+  text-align: center;
 }
 
 .contactLink {
-  margin: 15px;
+  margin: 8px;
 }
 
 footer {
